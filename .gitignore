@@ -77,6 +77,4 @@ ENV/
 *.log
 *.sqlite3
 *.db
-*.github
-
 
