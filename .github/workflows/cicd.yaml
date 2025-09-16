@@ -46,9 +46,8 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{secrets.DOCKERHUB_USERNAME}}:${{github.run_number}}
-          file: ./Docker
-          
+          tags: ${{secrets.DOCKERHUB_USERNAME}}/git-gist:${{github.run_number}}
+
           
 
      
