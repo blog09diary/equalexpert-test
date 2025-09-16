@@ -1,0 +1,5 @@
+# List of required Python packages for the project
+fastapi
+uvicorn
+httpx
+pytest
